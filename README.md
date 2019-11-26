@@ -37,7 +37,7 @@ import torchvision
         * [可视化学习曲线](#可视化学习曲线)
     * [计算准确率、查准率（precision）、查全率（recall）](#计算准确率、查准率（precision）、查全率（recall）)
     * [模型定义](#模型定义)
-    * [PyTorch 性能与调试](#PyTorch 性能与调试)
+    * [PyTorch 性能与调试](#PyTorch性能与调试)
     * [统计代码各部分耗时](#统计代码各部分耗时)
 
 #### 检查 PyTorch 版本
