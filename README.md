@@ -15,6 +15,31 @@ import torch
 import torchvision
 ```
 
+* Content
+    * [检查 PyTorch 版本](#检查 PyTorch 版本)
+    * [更新 PyTorch](#更新 PyTorch)
+    * [固定随机种子](#固定随机种子)
+    * [指定程序运行在特定 GPU 卡上](#指定程序运行在特定 GPU 卡上)
+    * [判断是否有 CUDA 支持](#判断是否有 CUDA 支持)
+    * [清除 GPU 存储](#清除 GPU 存储)
+    * [张量处理](#张量处理)
+    * [模型定义](#模型定义)
+    * [多卡同步 BN(Batch normalization)](#多卡同步 BN(Batch normalization))
+    * [计算模型整体参数量](#计算模型整体参数量)
+    * [模型训练](#模型训练)
+        * [得到当前学习率](#得到当前学习率)
+        * [学习率衰减](#学习率衰减)
+        * [保存与加载断点](#保存与加载断点)
+    * [Mixup](#Mixup)
+    * [梯度裁剪](#梯度裁剪)
+    * [可视化](#可视化)
+        * [可视化模型前馈的计算图](#可视化模型前馈的计算图)
+        * [可视化学习曲线](#可视化学习曲线)
+    * [计算准确率、查准率（precision）、查全率（recall）](#计算准确率、查准率（precision）、查全率（recall）)
+    * [模型定义](#模型定义)
+    * [PyTorch 性能与调试](#PyTorch 性能与调试)
+    * [统计代码各部分耗时](#统计代码各部分耗时)
+
 #### 检查 PyTorch 版本
 ```
 torch.__version__               # PyTorch version
@@ -512,6 +537,8 @@ prediction = torch.argmax(score, dim=1)
 num_correct = torch.sum(prediction == labels).item()
 accuruacy = num_correct / labels.size(0)
 ```
+### 可视化
+
 #### 可视化模型前馈的计算图
 ```
 链接：https://github.com/szagoruyko/pytorchviz
