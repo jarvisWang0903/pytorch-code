@@ -35,11 +35,12 @@ import torchvision
     * [可视化](#可视化)
         * [可视化模型前馈的计算图](#可视化模型前馈的计算图)
         * [可视化学习曲线](#可视化学习曲线)
+        * [feature map 可视化](#visualize.py)
     * [计算准确率、查准率（precision）、查全率（recall）](#计算准确率、查准率（precision）、查全率（recall）)
     * [模型定义](#模型定义)
     * [PyTorch 性能与调试](#PyTorch性能与调试)
     * [统计代码各部分耗时](#统计代码各部分耗时)
-
+  
 #### 检查 PyTorch 版本
 ```
 torch.__version__               # PyTorch version
