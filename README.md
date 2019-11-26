@@ -16,15 +16,15 @@ import torchvision
 ```
 
 * Content
-    * [检查 PyTorch 版本](#检查 PyTorch 版本)
-    * [更新 PyTorch](#更新 PyTorch)
+    * [检查 PyTorch 版本](#检查-PyTorch-版本)
+    * [更新 PyTorch](#更新-PyTorch)
     * [固定随机种子](#固定随机种子)
-    * [指定程序运行在特定 GPU 卡上](#指定程序运行在特定 GPU 卡上)
-    * [判断是否有 CUDA 支持](#判断是否有 CUDA 支持)
-    * [清除 GPU 存储](#清除 GPU 存储)
+    * [指定程序运行在特定 GPU 卡上](#指定程序运行在特定-GPU-卡上)
+    * [判断是否有 CUDA 支持](#判断是否有-CUDA-支持)
+    * [清除 GPU 存储](#清除-GPU-存储)
     * [张量处理](#张量处理)
     * [模型定义](#模型定义)
-    * [多卡同步 BN(Batch normalization)](#多卡同步 BN(Batch normalization))
+    * [多卡同步 BN(Batch normalization)](#多卡同步-BN(Batch-normalization))
     * [计算模型整体参数量](#计算模型整体参数量)
     * [模型训练](#模型训练)
         * [得到当前学习率](#得到当前学习率)
